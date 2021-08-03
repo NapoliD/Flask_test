@@ -42,4 +42,4 @@ app.wsgi_app = ReverseProxied(app.wsgi_app)
 # Homepage which uses a template file
 @app.route('/')
 def welcome():
-    return 'Hola funcionó'
+    return 'Test'
